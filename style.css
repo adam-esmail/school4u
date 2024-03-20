@@ -13,6 +13,17 @@ html {
     background-color: #434242;
     overflow: hidden;
   }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family:courier;
+  }
 
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -37,8 +48,8 @@ html {
     color: white;
   }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 4);
+    max-width: 320px;
     margin: auto;
     text-align: center;
     font-family: arial;
@@ -47,6 +58,7 @@ html {
   .price {
     color: black;
     font-size: 22px;
+  
   }
 
   .card button {
@@ -76,6 +88,7 @@ div.gallery {
 
 div.gallery:hover {
   opacity: 0.7;
+  width: 14%
 }
 
 div.gallery img {
